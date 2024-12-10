@@ -1,1 +1,1 @@
-bucketname="dev-scalr123456"
+bucketname="dev-scalr1234567"
