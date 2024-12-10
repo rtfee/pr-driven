@@ -1,17 +1,9 @@
-resource "null_resource" "example" {
-  provisioner "local-exec" {
-    command = "echo 'Demo of a run from a PR comment!!'"
-  }
-}
+module "s3-bucket" {
+	source  = "scalrdemov2.scalr.io/acc-v0ohpf7km39ru2dtn/s3-bucket/aws"
+	version = "5.0.0"
 
-resource "null_resource" "example2" {
-  provisioner "local-exec" {
-    command = "echo 'Demo of a run from a PR comment!!'"
-  }
-}
+	# Set 1 required variable below.
 
-resource "null_resource" "example3" {
-  provisioner "local-exec" {
-    command = "echo 'Demo of a run from a PR comment!!'"
-  }
+	# (Optional, Forces new resource) The name of the bucket. If omitted, Terraform will assign a random, unique name.
+ 	bucket = var.bucketname
 }
