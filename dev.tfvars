@@ -1,1 +1,1 @@
-bucketname="scalr12345"
+bucketname="scalr123456"
