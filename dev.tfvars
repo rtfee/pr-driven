@@ -1,0 +1,1 @@
+bucketname="scalr12345"
