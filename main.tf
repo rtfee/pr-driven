@@ -7,4 +7,3 @@ module "s3-bucket" {
 	# (Optional, Forces new resource) The name of the bucket. If omitted, Terraform will assign a random, unique name.
  	bucket = var.bucketname
 }
-breaking change
