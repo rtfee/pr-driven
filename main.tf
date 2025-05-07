@@ -1,6 +1,6 @@
 module "s3-bucket" {
 	source  = "scalrdemov2.scalr.io/acc-v0ohpf7km39ru2dtn/s3-bucket/aws"
-	version = "5.0.0"
+	version = "2.0.0"
 
 	# Set 1 required variable below.
 
